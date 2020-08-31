@@ -1,0 +1,389 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#navbar{
+    display: flex;
+    /* margin: 20px; */
+    padding-left: 170px;
+    background-color: rgb(251, 250, 248);
+    /* position: sticky; */
+}
+
+#navbar::before{
+    content: "";
+    position: absolute;
+    background: url(image/bk/bk2.jpg)no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    top: 0px;
+    left: 0px;
+
+}
+    
+ #li1{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px;
+}
+
+#li1 .item{
+    list-style: none;
+}
+
+
+#li1  .item1 a{
+  /* font-size: 1.5rem; */
+  color: black;
+}
+
+#li1  .item2 a{
+    /* font-size: 1.5rem; */
+    color: black;
+  }
+
+  #li1  .item2 a:hover{
+    /* font-size: 1.5rem; */
+    color:rgb(191, 141, 238);
+  }
+
+
+#li1 .item a{
+  text-decoration: none;
+  /* list-style: none; */
+  font-size: 1.5rem;
+}
+#li2{
+    display: flex;
+   
+}
+
+#li2 .list{
+    list-style: none;
+    padding: 10px;
+    margin: 30px;
+}
+
+#li2 .list a{
+    text-decoration: none;
+    /* list-style: none; */
+    font-size: 1.1rem;
+    color: black;
+}
+
+  #li2 .list a:hover{
+    color: rgb(191, 141, 238);
+  }
+
+
+  #sec1{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 511px;
+      
+  }
+
+  #sec1 h2{
+      font-size: 1.5rem;
+  }
+
+  #sec1 h1{
+      font-size: 10.5rem;
+  }
+
+  #sec1 h3{
+    font-size: 2.2rem;
+  }
+
+  .btn{
+      padding: 10px;
+      margin: 15px;
+      background-color: black;
+     
+      /* font-size: 0.8rem; */
+      border: 1px,solid,black;
+  }
+
+  .btn a{
+      text-decoration: none;
+      color: white;
+  }
+
+  /* .btn a:hover{
+    /* padding: 10px; */
+    /* margin: 15px; */
+    /* background-color: black; */
+    /* color:white; */
+    /* font-size: 0.8rem; */
+    /* border: 1px,solid,black; */
+    /* background-color:black; */
+  /* } */
+
+
+  #sec2{
+      display: flex;
+  }
+
+  #sec2 .left{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    margin-left: 100px;
+}
+
+
+#sec2 .left li{
+    list-style: none;
+
+}
+
+
+#sec2 .left ul{
+    padding-bottom: 40px;
+}
+
+#sec2 .left p{
+    padding-bottom: 40px;
+}
+
+
+#sec2 .left li a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    /* list-style: none; */
+    font-size: 3.5rem;
+    color: black;
+}
+
+#sec2 .left .btn1{
+    /* text-decoration: none; */
+    /* color: white; */
+    padding: 15px;
+    /* margin-left: 70px; */
+    background-color: black;
+    border: 1px,solid,black;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+#sec2 .left .btn1 a{
+    text-decoration: none;
+    color: white;
+    /* padding: 20px; */
+    /* margin: 20px; */
+    /* background-color: black; */
+}
+
+
+
+
+
+#sec2 .right img{
+    height: 672px;
+    width: 600px;
+    
+}
+
+#section2::after{
+    content: "";
+    position: absolute;
+    background: url(image/bk/bk1.jpg)no-repeat center center/cover;
+    height: 730px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    /* top: 0px; */
+    /* left: 0px; */
+
+}
+#sec3 .online{
+    font-size: 2.8rem;
+    /* padding: 20px; */
+    margin-left: 70px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+#sect3{
+    display: flex;
+}
+
+#sect3 .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px,solid,black; */
+    /* margin-bottom: 30px; */
+    margin: 40px;
+}
+
+#sect3 .box li{
+    list-style: none;
+    /* text-decoration: none; */
+    /* margin-bottom: 30px; */
+    text-align: center;
+    justify-content: center;
+}
+
+#sect3 .box li a{
+    /* list-style: none; */
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: black;
+    /* margin-bottom: 30px; */
+}
+
+#sect3 .box p{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.btn3 button{
+    padding: 5px;
+    margin: 0px;
+    font-size: 1.2rem;
+    background-color: cyan;
+}
+
+.btn3 button:hover{
+    /* padding: 5px; */
+    /* margin: 0px; */
+    /* font-size: 1.2rem; */
+    background-color: rgb(76, 189, 189)
+}
+
+
+
+#sec3 .btn4{
+    
+        padding: 10px;
+        margin: 15px;
+        background-color: black;
+       
+        /* font-size: 0.8rem; */
+        border: 1px,solid,black;
+        display: flex;
+        margin-left: 600px;
+        margin-right: 600px
+      
+     
+}
+
+#sec3 .btn4 a{
+   
+        text-decoration: none;
+        color: white;
+        
+      
+}
+
+#foot::before{
+    content: "";
+    position: absolute;
+    background-color: #6bc9dc;
+    height:531px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+    /* top: 0px; */
+    /* left: 0px; */
+
+}
+#foot{
+    display: flex;
+    margin-top: 75px;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-left{
+    margin-right: 350px;
+}
+#footer-left h1{
+    font-size: 2.3rem;
+    margin-bottom: 20px;
+}
+
+#footer-left .pa2{
+    /* font-size: 2.3rem; */
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+#footer-left #logo{
+    margin-top: 40px;
+}
+
+ #logo .image img{
+    height: 20px;
+    width: 20px;
+
+}
+
+#logo{
+    display: flex;
+    /* margin: 10px; */
+}
+#logo .image{
+    margin: 7px;
+}
+
+
+
+
+
+
+
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    margin: 20px;
+   
+}
+
+#footer-right input,#footer-right textarea{
+    display: flex;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 15px;
+}
+
+#footer-right form{
+    width: 50%;
+}
+#footer-right label{
+    font-size: 1.2rem;
+    /* color: white; */
+}
+
+#footer-right .btn5{
+    padding: 11px;
+    margin: 15px;
+    background-color: black;
+    /* font-size: 0.8rem; */
+    border: 1px,solid,black;
+    /* display: flex; */
+    margin-left: 180px;
+    border-radius: 12px;
+    margin-right: -17px;
+     
+}
+
+#footer-right .btn5 a{
+    text-decoration: none;
+        color: white;
+}
